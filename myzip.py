@@ -1,7 +1,4 @@
-aksjhdkajsh
-askjdkajsdh
-akjdhakjsdh
-:def my_zip(x1, x2):
+def my_zip(x1, x2):
 	length = min(len(x1), len(x2))
 	for i in range(length):
 		yield(x1[i], x2[i])
